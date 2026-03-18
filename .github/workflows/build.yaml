@@ -2,7 +2,7 @@ name: build and push Docker
 
 on:
   push:
-    branches: [main]
+    branches: [main, freature/actividad2]
 jobs:
   checkout:
     runs-on: ubuntu-latest
